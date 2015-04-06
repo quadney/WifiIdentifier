@@ -1,0 +1,18 @@
+//
+//  LibraryWifiData.h
+//  WiFiIdentifier
+//
+//  Created by Sydney Richardson on 4/6/15.
+//  Copyright (c) 2015 Sydney Richardson. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface LibraryWifiData : NSObject
+
+@property (strong, nonatomic) NSString *libraryName;
+@property (strong, nonatomic) NSMutableArray *wifiBSSIDCodes;
+
+- (id)initWithName:(NSString *)name;
+
+@end
